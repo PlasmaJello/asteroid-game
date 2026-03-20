@@ -25,7 +25,7 @@ def main():
                 return
 
         dt = clock.tick(60) / 1000
-        print(dt)
+        # print(dt)
     screen.fill("black")
     pygame.display.flip()
 
