@@ -1,5 +1,6 @@
 from circleshape import CircleShape
 from constants import PLAYER_RADIUS, PLAYER_TURN_SPEED, PLAYER_SPEED, LINE_WIDTH
+from shot import Shot
 import pygame
 
 
@@ -40,3 +41,6 @@ class Player(CircleShape):
 
     def draw(self, screen):
         pygame.draw.polygon(screen, "white", self.triangle(), LINE_WIDTH)
+
+    def shoot():
+        Shot.player.position
